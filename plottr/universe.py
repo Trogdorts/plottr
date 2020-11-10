@@ -1,6 +1,6 @@
 from utils import *
 
-class Universe(object):
+class Universe:
     def __init__(self, series = []):
         self.series = series
         print("Created new universe.")

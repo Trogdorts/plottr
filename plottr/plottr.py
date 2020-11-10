@@ -54,7 +54,7 @@ series.add_novel(novel)
 
 
 print(novel.__dict__)
-print(novel.get_title())
+print(getattr(novel,'title'))
 
 
  
