@@ -2,8 +2,7 @@
 
 
 def create_serial(object):
-    if type(object) == "Universe":
-        print("type is universe")
+    print(type(object))
         
 
 def load_json(in_file):

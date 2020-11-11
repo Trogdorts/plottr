@@ -11,7 +11,6 @@ class Novel(Series):
                  PARTS = 3
     ):
         
-        
         self.title = title
         self.genre = genre
         self.subgenre = subgenre
@@ -19,10 +18,16 @@ class Novel(Series):
         self.AVG_CHAPTER_LENGTH = AVG_CHAPTER_LENGTH
         self.WORD_COUNT = WORD_COUNT
         self.PARTS = PARTS
+        self.characters = []
         
         print("Created new novel.")
         
-        
+    def generate_characters(self):
+        pass
+
+
+
+
     def get_title(self):
         return self.title
 

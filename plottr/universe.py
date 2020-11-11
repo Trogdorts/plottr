@@ -17,5 +17,7 @@ class Universe:
     def get_universe(self):
         pass
         
-        
+    def create_timeline(self):
+        pass
+
         
