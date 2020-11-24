@@ -578,7 +578,7 @@ if __name__ == '__main__':
     pretty_print(universe)
 
     import json
-    with open("test_pretty.json", 'w') as f:
+    with open("pretty_print.json", 'w') as f:
         print(json.dumps(universe, indent=4), file=f)
 
 
