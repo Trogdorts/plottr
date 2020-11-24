@@ -460,7 +460,7 @@ def pretty_print(universe):
                 if 'NOVEL' in n:
                     print("Novel:", n)
                     print("Word Count:", universe[i][n]['word_count'])
-                    print("Total Roles:", get_roles_count(universe[i][n]))
+                    print("Total Unused Roles:", get_unused_roles_count(universe[i][n]))
                     print("Point of View:", universe[i][n]['pov']['name'])
                     print("Chapters:", len(list(universe[i][n]['passages'].keys())))
                     for c in universe[i][n]['characters'].keys():
@@ -472,7 +472,7 @@ def pretty_print(universe):
                             pass
                         print("Character:", universe[i][n]['characters'][c]['full_name'], '\tRoles:', print_roles )
 
-def get_roles_count(novel):
+def get_unused_roles_count(novel):
     roles = 0
     for key in novel['roles'].keys():
         print(novel['roles'][key]['unused'])
@@ -538,10 +538,9 @@ def build_novel_cast(novel, cast_list='default'):
                 if (novel['characters'][selected_character]['roles']['primary']) != 'temptor':  # dont give a second role to the temptor
                     novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
                     del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
-                    print("before removing: ", available_roles)
                     available_roles.remove(role) # Remove selected role from the novels available roles
                     novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
-                    print("after removing: ", available_roles)
+
             
                 
             
