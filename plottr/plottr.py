@@ -475,7 +475,9 @@ def pretty_print(universe):
 def get_roles_count(novel):
     roles = 0
     for key in novel['roles'].keys():
+        print(novel['roles'][key]['unused'])
         count = novel['roles'][key]['unused']
+
         roles = roles + count
     return roles
 
@@ -524,7 +526,9 @@ def build_novel_cast(novel, cast_list='default'):
         novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
     
     # Distribute out the rest of the roles as secondary to the existing characters
+    print("there are {} secondary roles available to be distributed.".format(len(available_roles)))
     while len(available_roles) > 0:
+        print(available_roles)
         for role in available_roles:
             characters = get_novel_characters(novel) # get a list of all characters
             random_character = random.choice(characters)
@@ -534,7 +538,10 @@ def build_novel_cast(novel, cast_list='default'):
                 if (novel['characters'][selected_character]['roles']['primary']) != 'temptor':  # dont give a second role to the temptor
                     novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
                     del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
+                    print("before removing: ", available_roles)
                     available_roles.remove(role) # Remove selected role from the novels available roles
+                    novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
+                    print("after removing: ", available_roles)
             
                 
             
