@@ -470,7 +470,6 @@ def pretty_print(universe):
                             print_roles = print_roles + ", Secondary: " + list(universe[i][n]['characters'][c]['roles']['secondary'].keys())[0]
                         except:
                             pass
-                        
                         print("Character:", universe[i][n]['characters'][c]['full_name'], '\tRoles:', print_roles )
 
 def get_roles_count(novel):
@@ -582,7 +581,9 @@ if __name__ == '__main__':
     with open("test_pretty.json", 'w') as f:
         print(json.dumps(universe, indent=4), file=f)
 
+
+'''
     # Test saving json file
     with open('test_json.json', 'w') as outfile:
         json.dump(universe, outfile)
-        
+'''      
