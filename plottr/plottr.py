@@ -451,8 +451,12 @@ def get_novel_characters(novel):
     
 def pretty_print(universe):
     """
-    Prints all the tings I want to see while debugging
+    Prints all the things I want to see while debugging
     """
+    
+    print("#"*60)
+    print("Print all the things I want to see while debugging")
+    print("-"*60)
     for i in universe.keys():
         if 'SERIES' in i:
             print("Series:", i)
