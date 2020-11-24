@@ -475,7 +475,6 @@ def pretty_print(universe):
 def get_unused_roles_count(novel):
     roles = 0
     for key in novel['roles'].keys():
-        print(novel['roles'][key]['unused'])
         count = novel['roles'][key]['unused']
 
         roles = roles + count
@@ -526,9 +525,7 @@ def build_novel_cast(novel, cast_list='default'):
         novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
     
     # Distribute out the rest of the roles as secondary to the existing characters
-    print("there are {} secondary roles available to be distributed.".format(len(available_roles)))
     while len(available_roles) > 0:
-        print(available_roles)
         for role in available_roles:
             characters = get_novel_characters(novel) # get a list of all characters
             random_character = random.choice(characters)
