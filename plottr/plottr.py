@@ -464,7 +464,14 @@ def pretty_print(universe):
                     print("Point of View:", universe[i][n]['pov']['name'])
                     print("Chapters:", len(list(universe[i][n]['passages'].keys())))
                     for c in universe[i][n]['characters'].keys():
-                            print("Character:", universe[i][n]['characters'][c]['full_name'])
+                        
+                        print_roles = "Primary: " + list(universe[i][n]['characters'][c]['roles']['primary'].keys())[0]
+                        try:
+                            print_roles = print_roles + ", Secondary: " + list(universe[i][n]['characters'][c]['roles']['secondary'].keys())[0]
+                        except:
+                            pass
+                        
+                        print("Character:", universe[i][n]['characters'][c]['full_name'], '\tRoles:', print_roles )
 
 def get_roles_count(novel):
     roles = 0
@@ -523,7 +530,7 @@ def build_novel_cast(novel, cast_list='default'):
             characters = get_novel_characters(novel) # get a list of all characters
             random_character = random.choice(characters)
             selected_character = list(random_character.keys())[0]
-            print("Adding secondary role {} to character {}.".format(role, selected_character))
+            # TODO this should be a future logging statement print("Adding secondary role {} to character {}.".format(role, selected_character))
             if (novel['characters'][selected_character]['roles']['primary']) != 'protagonist':  # dont give a second role to the protagonist
                 if (novel['characters'][selected_character]['roles']['primary']) != 'temptor':  # dont give a second role to the temptor
                     novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
@@ -569,7 +576,7 @@ if __name__ == '__main__':
 
 
     # Testing Pretty Print Function
-    #pretty_print(universe)
+    pretty_print(universe)
 
     import json
     with open("test_pretty.json", 'w') as f:
