@@ -516,7 +516,6 @@ def build_novel_cast(novel, cast_list='default'):
         add_character_to_novel(character, novel)
         available_roles.remove(role) # Remove selected role from the novels available roles
         novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
-    print("roles left: ", available_roles)
     
     # Distribute out the rest of the roles as secondary to the existing characters
     while len(available_roles) > 0:
@@ -526,13 +525,14 @@ def build_novel_cast(novel, cast_list='default'):
             selected_character = list(random_character.keys())[0]
             print("Adding secondary role {} to character {}.".format(role, selected_character))
             if (novel['characters'][selected_character]['roles']['primary']) != 'protagonist':  # dont give a second role to the protagonist
-                novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
-                del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
-                available_roles.remove(role) # Remove selected role from the novels available roles
-        
+                if (novel['characters'][selected_character]['roles']['primary']) != 'temptor':  # dont give a second role to the temptor
+                    novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
+                    del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
+                    available_roles.remove(role) # Remove selected role from the novels available roles
             
-        
-        
+                
+            
+            
         
 
             
