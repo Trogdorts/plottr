@@ -407,7 +407,59 @@ def build_new_character(archetype="random", sex='random', species='human'):
             choice = random.choice(archetypes)
         for key, value in character_archetypes[choice].items():
             character[key.lower()] = value
-             
+
+    def set_morality(character, morality = 'random'):
+        """
+        # Trait : Weighted Probability
+        # https://pynative.com/python-weighted-random-choices-with-probability/
+        """    
+    
+        def set_morality_trait_value():
+            """
+            Set the morality value of each trait to be a weighted value.
+            """
+            value_range = [1,2,3,4,5,6,7,8,9,10]
+            randomItem = random.choices(value_range, weights=(1,10,20,40,60,60,40,20,10,1), k=1)
+            return randomItem[0]
+
+        morality_traits =  {
+            "integrity": 5,
+            "honesty": 5,
+            "loyalty": 5,
+            "respectfulness": 5,
+            "responsibility": 5,
+            "humility": 5,
+            "compassion": 5,
+            "fairness": 5,
+            "forgiveness": 5,
+            "authenticity": 5,
+            "courageousness": 5,
+            "generosity": 5,
+            "perseverance": 5,
+            "politeness": 5,
+            "kindness": 5,
+            "lovingness": 5,
+            "optimism": 5,
+            "reliability": 5,
+            "conscientiousness": 5,
+            "self-disciplined": 5,
+            "ambitiousness": 5,
+            "encouraging": 5,
+            "forgiving": 5,
+            "considerate": 5,
+            "thoroughness": 5
+        }
+        
+        character['morality'] = morality_traits # set the default of 5 for each trait
+        
+        if morality == 'random':
+            for m in morality_traits.keys():
+                value = set_morality_trait_value()
+                character['morality'][m] = value        
+
+        return character
+   
+   
     character_uid = guid("CHARACTER")
     character = {'uid':character_uid}
     character['sex'] = set_sex(sex)
@@ -416,12 +468,14 @@ def build_new_character(archetype="random", sex='random', species='human'):
     character['middle_name'] = '' #TODO - write custom module for setting common middle names
     character['full_name'] = " ".join([character['first_name'], character['last_name']])
     character['nickname'] = ''
+    character['title'] = ''
     character['age'] = ''
     character['species'] = set_species(species)
     character['occupation'] = ''
     character['storyline'] = {}
     character['goal'] = {}
     character['motivation'] = {}
+    character['agenda'] = {'hidden': ' '}
     character['conflict'] = {}
     character['epiphany'] = {}
     character['history'] = []
@@ -431,6 +485,7 @@ def build_new_character(archetype="random", sex='random', species='human'):
 
     # Some things have to run after the character is created.
     set_archetype(archetype, character)
+    set_morality(character)
     
     return character
 
@@ -453,7 +508,6 @@ def pretty_print(universe):
     """
     Prints all the things I want to see while debugging
     """
-    
     print("#"*60)
     print("Print all the things I want to see while debugging")
     print("-"*60)
@@ -466,15 +520,16 @@ def pretty_print(universe):
                     print("Word Count:", universe[i][n]['word_count'])
                     print("Total Unused Roles:", get_unused_roles_count(universe[i][n]))
                     print("Point of View:", universe[i][n]['pov']['name'])
-                    print("Chapters:", len(list(universe[i][n]['passages'].keys())))
+                    print("Suggested Word Count:", universe[i][n]['word_count'])
+                    print("Suggested Chapters:", len(list(universe[i][n]['passages'].keys())))
+                    print("Cast:", len(universe[i][n]['characters'].keys()), "characters.")
                     for c in universe[i][n]['characters'].keys():
-                        
                         print_roles = "Primary: " + list(universe[i][n]['characters'][c]['roles']['primary'].keys())[0]
                         try:
                             print_roles = print_roles + ", Secondary: " + list(universe[i][n]['characters'][c]['roles']['secondary'].keys())[0]
                         except:
                             pass
-                        print("Character:", universe[i][n]['characters'][c]['full_name'], '\tRoles:', print_roles )
+                        print("\tCharacter:", universe[i][n]['characters'][c]['full_name'], '\tRoles:', print_roles )
 
 def get_unused_roles_count(novel):
     roles = 0
@@ -535,39 +590,52 @@ def build_novel_cast(novel, cast_list='default'):
             random_character = random.choice(characters)
             selected_character = list(random_character.keys())[0]
             # TODO this should be a future logging statement print("Adding secondary role {} to character {}.".format(role, selected_character))
-            if (novel['characters'][selected_character]['roles']['primary']) != 'protagonist':  # dont give a second role to the protagonist
-                if (novel['characters'][selected_character]['roles']['primary']) != 'temptor':  # dont give a second role to the temptor
+            if 'protagonist'not in (novel['characters'][selected_character]['roles']['primary']):  # dont give a second role to the protagonist
+                if 'temptor' not in (novel['characters'][selected_character]['roles']['primary']):  # dont give a second role to the temptor
                     novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
                     del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
                     available_roles.remove(role) # Remove selected role from the novels available roles
                     novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
 
-            
+
+    # FUTURE WORK
+    # need a builder function for everything
+        # This is where the novel writer will go
+        # Right now these are manually building everything
+    
+    # a universe needs a simple goal or theme to follow
+    # a series should have a set of goals, motivation, etc for novels to follow
+    # a novel should have a set of goals, motivation, etc and also follow along with the series
+        
+    # make the average novel lenght wiggle higher or lower with each build and with each passage
+    
+    # create locations
+    # create non-humans
+    # create transportation or some way to designate things like space ships, stations, things that move
+    
+    # create a logger and log everything to it in a way that it can be regenerated or used in splunk to show rising complexity
+    
+    # add more complexity to characters
+        # common words, pfrases, etc
+        # their level of "luck" or odds of bad things happening to them
+        # need to store their relationships to other characters
+        
+    # update the character archetypes keys to hold a dictionary and move the descritpion to inside that dictionary. this is for future expansion
+# END
                 
             
             
         
 
-            
-                
-        #print()
-
-  
+        
+    
+    
     
     
     
 
-    # Add the selected role to the novels role count
-         
 
-    
-    
-    
-    
-    
-# Future Work
-# This is where the novel writer will go
-# Right now these are manually building everything
+
 if __name__ == '__main__':
 
 
