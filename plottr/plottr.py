@@ -576,6 +576,8 @@ def build_novel_cast(novel, cast_list='default'):
     
     # Create a character for each primary role
     
+    
+    # this is all for naught,,, forgot about available roles and unique roles list
     for role in unique_roles:
         # TODO check existing characters for sex and ensure love interests are the opposite by default
         if "love_interest" in role:
@@ -587,7 +589,8 @@ def build_novel_cast(novel, cast_list='default'):
                     existing_characters.append(list(novel['characters'][i]['roles']['primary'].keys())[0])
             if "protaganist" in existing_characters:
                 print("protaganist already exists")
-                
+        if "protaganist" in role:
+            print("found the protaganist")
             
 
 
