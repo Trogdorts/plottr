@@ -1,22 +1,22 @@
 {
-    "uid": "UNIVERSE15895820",
+    "uid": "UNIVERSE95153426",
     "type": "universe",
-    "SERIES5600824361": {
-        "uid": "SERIES5600824361",
+    "SERIES9742722536": {
+        "uid": "SERIES9742722536",
         "type": "series",
         "series_number": 1,
-        "NOVEL78564785028": {
-            "uid": "NOVEL78564785028",
+        "NOVEL16748965817": {
+            "uid": "NOVEL16748965817",
             "word_count": 7500,
             "average_passage_length": 1170,
             "characters": {
-                "CHARACTER0779705": {
-                    "uid": "CHARACTER0779705",
+                "CHARACTER5366667": {
+                    "uid": "CHARACTER5366667",
                     "sex": "female",
-                    "first_name": "Paula",
-                    "last_name": "Johnson",
+                    "first_name": "Catherine",
+                    "last_name": "Lewis",
                     "middle_name": "",
-                    "full_name": "Paula Johnson",
+                    "full_name": "Catherine Lewis",
                     "nickname": "",
                     "age": "",
                     "species": {
@@ -24,7 +24,7 @@
                     },
                     "occupation": "",
                     "storyline": {},
-                    "goal": "to use intelligence and analysis to understand the world.",
+                    "goal": "to make dreams come true",
                     "motivation": {},
                     "conflict": {},
                     "epiphany": {},
@@ -32,30 +32,28 @@
                     "passages": [],
                     "roles": {
                         "primary": {
-                            "protagonist": {
-                                "description": "the character responsible for handling the main problem and the one most in need of change, emotionally.",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
+                            "foil": {
+                                "description": "a supporting character who has a contrasting personality and set of values to the protaganist. Putting the foil and main character in close proximity helps draw readers\u2019 attention to the latter\u2019s attributes.",
+                                "count": 0
                             }
                         },
                         "secondary": {}
                     },
-                    "archetype_name": "The Sage",
-                    "desire": "to find the truth.",
-                    "biggest fear": "being duped, misled\u00e2\u20ac\u201dor ignorance.",
-                    "strategy": "seeking out information and knowledge; self-reflection and understanding thought processes.",
-                    "weakness": "can study details forever and never act.",
-                    "talent": "wisdom, intelligence.",
-                    "aka": "The expert, scholar, detective, advisor, thinker, philosopher, academic, researcher, thinker, planner, professional, mentor, teacher, contemplative."
+                    "archetype_name": "The Magician",
+                    "desire": "understanding the fundamental laws of the universe",
+                    "greatest fear": "unintended negative consequences",
+                    "strategy": "develop a vision and live by it",
+                    "weakness": "becoming manipulative",
+                    "talent": "finding win-win solutions",
+                    "aka": "The visionary, catalyst, inventor, charismatic leader, shaman, healer, medicine man."
                 },
-                "CHARACTER7100213": {
-                    "uid": "CHARACTER7100213",
-                    "sex": "female",
-                    "first_name": "Jennifer",
-                    "last_name": "Hurst",
+                "CHARACTER5425724": {
+                    "uid": "CHARACTER5425724",
+                    "sex": "male",
+                    "first_name": "James",
+                    "last_name": "Hardy",
                     "middle_name": "",
-                    "full_name": "Jennifer Hurst",
+                    "full_name": "James Hardy",
                     "nickname": "",
                     "age": "",
                     "species": {
@@ -63,7 +61,7 @@
                     },
                     "occupation": "",
                     "storyline": {},
-                    "goal": "to overturn what isn't working",
+                    "goal": "create a prosperous, successful family or community",
                     "motivation": {},
                     "conflict": {},
                     "epiphany": {},
@@ -80,60 +78,21 @@
                         },
                         "secondary": {}
                     },
-                    "archetype_name": "The Rebel",
-                    "desire": "revenge or revolution",
-                    "greatest fear": "to be powerless or ineffectual",
-                    "strategy": "disrupt, destroy, or shock",
-                    "weakness": "crossing over to the dark side, crime",
-                    "talent": "outrageousness, radical freedom",
-                    "aka": "The rebel, revolutionary, wild man, the misfit, or iconoclast."
+                    "archetype_name": "The Ruler",
+                    "desire": "control",
+                    "strategy": "exercise power",
+                    "greatest fear": "chaos, being overthrown",
+                    "weakness": "being authoritarian, unable to delegate",
+                    "talent": "responsibility, leadership",
+                    "aka": "The boss, leader, aristocrat, king, queen, politician, role model, manager or administrator."
                 },
-                "CHARACTER2845164": {
-                    "uid": "CHARACTER2845164",
+                "CHARACTER7604101": {
+                    "uid": "CHARACTER7604101",
                     "sex": "female",
-                    "first_name": "Amber",
-                    "last_name": "Cruz",
+                    "first_name": "Jessica",
+                    "last_name": "Heath",
                     "middle_name": "",
-                    "full_name": "Amber Cruz",
-                    "nickname": "",
-                    "age": "",
-                    "species": {
-                        "name": "human"
-                    },
-                    "occupation": "",
-                    "storyline": {},
-                    "goal": "to use intelligence and analysis to understand the world.",
-                    "motivation": {},
-                    "conflict": {},
-                    "epiphany": {},
-                    "history": [],
-                    "passages": [],
-                    "roles": {
-                        "primary": {
-                            "confidant": {
-                                "description": "description goes here",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
-                            }
-                        },
-                        "secondary": {}
-                    },
-                    "archetype_name": "The Sage",
-                    "desire": "to find the truth.",
-                    "biggest fear": "being duped, misled\u00e2\u20ac\u201dor ignorance.",
-                    "strategy": "seeking out information and knowledge; self-reflection and understanding thought processes.",
-                    "weakness": "can study details forever and never act.",
-                    "talent": "wisdom, intelligence.",
-                    "aka": "The expert, scholar, detective, advisor, thinker, philosopher, academic, researcher, thinker, planner, professional, mentor, teacher, contemplative."
-                },
-                "CHARACTER8470756": {
-                    "uid": "CHARACTER8470756",
-                    "sex": "male",
-                    "first_name": "Thomas",
-                    "last_name": "Rivers",
-                    "middle_name": "",
-                    "full_name": "Thomas Rivers",
+                    "full_name": "Jessica Heath",
                     "nickname": "",
                     "age": "",
                     "species": {
@@ -142,162 +101,6 @@
                     "occupation": "",
                     "storyline": {},
                     "goal": "to make dreams come true",
-                    "motivation": {},
-                    "conflict": {},
-                    "epiphany": {},
-                    "history": [],
-                    "passages": [],
-                    "roles": {
-                        "primary": {
-                            "temptor": {
-                                "description": "the right-hand to the antagonist. The tempter doesn\u2019t need to know the antagonist, but they both stand for the same thing: stopping the protagonist from achieving the protagonist\u2019s goal. The tempter tries to manipulate and convince the protagonist to join the \u201cdark side\u201d. However, in the end, the tempter can change his/her mind and realize the benefit of joining the good guys.",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
-                            }
-                        },
-                        "secondary": {}
-                    },
-                    "archetype_name": "The Magician",
-                    "desire": "understanding the fundamental laws of the universe",
-                    "greatest fear": "unintended negative consequences",
-                    "strategy": "develop a vision and live by it",
-                    "weakness": "becoming manipulative",
-                    "talent": "finding win-win solutions",
-                    "aka": "The visionary, catalyst, inventor, charismatic leader, shaman, healer, medicine man."
-                },
-                "CHARACTER3462172": {
-                    "uid": "CHARACTER3462172",
-                    "sex": "male",
-                    "first_name": "Brian",
-                    "last_name": "Wallace",
-                    "middle_name": "",
-                    "full_name": "Brian Wallace",
-                    "nickname": "",
-                    "age": "",
-                    "species": {
-                        "name": "human"
-                    },
-                    "occupation": "",
-                    "storyline": {},
-                    "goal": "to experience a better, more authentic, more fulfilling life",
-                    "motivation": {},
-                    "conflict": {},
-                    "epiphany": {},
-                    "history": [],
-                    "passages": [],
-                    "roles": {
-                        "primary": {
-                            "love_interest": {
-                                "description": "description goes here",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
-                            }
-                        },
-                        "secondary": {}
-                    },
-                    "archetype_name": "The Explorer",
-                    "desire": "the freedom to find out who you are through exploring the world",
-                    "biggest fear": "getting trapped, conformity, and inner emptiness",
-                    "strategy": "journey, seeking out and experiencing new things, escape from boredom",
-                    "weakness": "aimless wandering, becoming a misfit",
-                    "talent": "autonomy, ambition, being true to one's soul",
-                    "aka": "The seeker, iconoclast, wanderer, individualist, pilgrim."
-                },
-                "CHARACTER4246050": {
-                    "uid": "CHARACTER4246050",
-                    "sex": "male",
-                    "first_name": "Julian",
-                    "last_name": "Torres",
-                    "middle_name": "",
-                    "full_name": "Julian Torres",
-                    "nickname": "",
-                    "age": "",
-                    "species": {
-                        "name": "human"
-                    },
-                    "occupation": "",
-                    "storyline": {},
-                    "goal": "create a prosperous, successful family or community",
-                    "motivation": {},
-                    "conflict": {},
-                    "epiphany": {},
-                    "history": [],
-                    "passages": [],
-                    "roles": {
-                        "primary": {
-                            "emotional": {
-                                "description": "this character acts according to their gut and lets motions fuel decisions. Impulsive. Reactive. Sometimes the emotional character is right and succeeds in ways that a thinking person would never have even tried, but sometimes the character finds trouble by not thinking before jumping.",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
-                            }
-                        },
-                        "secondary": {}
-                    },
-                    "archetype_name": "The Ruler",
-                    "desire": "control",
-                    "strategy": "exercise power",
-                    "greatest fear": "chaos, being overthrown",
-                    "weakness": "being authoritarian, unable to delegate",
-                    "talent": "responsibility, leadership",
-                    "aka": "The boss, leader, aristocrat, king, queen, politician, role model, manager or administrator."
-                },
-                "CHARACTER5441030": {
-                    "uid": "CHARACTER5441030",
-                    "sex": "female",
-                    "first_name": "Donna",
-                    "last_name": "Blanchard",
-                    "middle_name": "",
-                    "full_name": "Donna Blanchard",
-                    "nickname": "",
-                    "age": "",
-                    "species": {
-                        "name": "human"
-                    },
-                    "occupation": "",
-                    "storyline": {},
-                    "goal": "create a prosperous, successful family or community",
-                    "motivation": {},
-                    "conflict": {},
-                    "epiphany": {},
-                    "history": [],
-                    "passages": [],
-                    "roles": {
-                        "primary": {
-                            "mentor": {
-                                "description": "the protagonist\u2019s conscience and the prevailing side to the thematic argument. The mentor voices or represents the lesson that must be learned by the protagonist in order to change for the better and achieve the goal. (Note: Be mindful of creating a mentor who is as perfect and principled as humans can be, for doing so will make the character seem inhuman. Instead, let the mentor be flawed, like all us humans.)",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
-                            }
-                        },
-                        "secondary": {}
-                    },
-                    "archetype_name": "The Ruler",
-                    "desire": "control",
-                    "strategy": "exercise power",
-                    "greatest fear": "chaos, being overthrown",
-                    "weakness": "being authoritarian, unable to delegate",
-                    "talent": "responsibility, leadership",
-                    "aka": "The boss, leader, aristocrat, king, queen, politician, role model, manager or administrator."
-                },
-                "CHARACTER5934224": {
-                    "uid": "CHARACTER5934224",
-                    "sex": "male",
-                    "first_name": "Christopher",
-                    "last_name": "Marshall",
-                    "middle_name": "",
-                    "full_name": "Christopher Marshall",
-                    "nickname": "",
-                    "age": "",
-                    "species": {
-                        "name": "human"
-                    },
-                    "occupation": "",
-                    "storyline": {},
-                    "goal": "to be happy",
                     "motivation": {},
                     "conflict": {},
                     "epiphany": {},
@@ -314,60 +117,21 @@
                         },
                         "secondary": {}
                     },
-                    "archetype_name": "The Innocent",
-                    "desire": "to reach paradise",
-                    "greatest fear": "to be punished for doing something bad or wrong",
-                    "strategy": "to do things right",
-                    "weakness": "their naive innocence can be boring or lack realism",
-                    "talent": "faith and optimism",
-                    "aka": "The utopian, the traditionalist, naive, mystic, saint, romantic, dreamer."
+                    "archetype_name": "The Magician",
+                    "desire": "understanding the fundamental laws of the universe",
+                    "greatest fear": "unintended negative consequences",
+                    "strategy": "develop a vision and live by it",
+                    "weakness": "becoming manipulative",
+                    "talent": "finding win-win solutions",
+                    "aka": "The visionary, catalyst, inventor, charismatic leader, shaman, healer, medicine man."
                 },
-                "CHARACTER2040924": {
-                    "uid": "CHARACTER2040924",
-                    "sex": "male",
-                    "first_name": "Johnathan",
-                    "last_name": "Smith",
-                    "middle_name": "",
-                    "full_name": "Johnathan Smith",
-                    "nickname": "",
-                    "age": "",
-                    "species": {
-                        "name": "human"
-                    },
-                    "occupation": "",
-                    "storyline": {},
-                    "goal": "to have a great time and lighten up the world",
-                    "motivation": {},
-                    "conflict": {},
-                    "epiphany": {},
-                    "history": [],
-                    "passages": [],
-                    "roles": {
-                        "primary": {
-                            "skeptic": {
-                                "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
-                                "count": 0,
-                                "characters": [],
-                                "aka": ""
-                            }
-                        },
-                        "secondary": {}
-                    },
-                    "archetype_name": "The Jester",
-                    "desire": "to live in the moment with full enjoyment",
-                    "greatest fear": "being bored or boring others",
-                    "strategy": "play, make jokes, be funny",
-                    "weakness": "frivolity, wasting time",
-                    "talent": "joy",
-                    "aka": "The fool, trickster, joker, practical joker or comedian."
-                },
-                "CHARACTER2229947": {
-                    "uid": "CHARACTER2229947",
+                "CHARACTER5813891": {
+                    "uid": "CHARACTER5813891",
                     "sex": "female",
-                    "first_name": "Laura",
-                    "last_name": "Simpson",
+                    "first_name": "Kayla",
+                    "last_name": "Mccann",
                     "middle_name": "",
-                    "full_name": "Laura Simpson",
+                    "full_name": "Kayla Mccann",
                     "nickname": "",
                     "age": "",
                     "species": {
@@ -400,13 +164,13 @@
                     "talent": "faith and optimism",
                     "aka": "The utopian, the traditionalist, naive, mystic, saint, romantic, dreamer."
                 },
-                "CHARACTER8506136": {
-                    "uid": "CHARACTER8506136",
-                    "sex": "male",
-                    "first_name": "Robert",
-                    "last_name": "Graves",
+                "CHARACTER4735582": {
+                    "uid": "CHARACTER4735582",
+                    "sex": "female",
+                    "first_name": "Susan",
+                    "last_name": "Strickland",
                     "middle_name": "",
-                    "full_name": "Robert Graves",
+                    "full_name": "Susan Strickland",
                     "nickname": "",
                     "age": "",
                     "species": {
@@ -414,7 +178,7 @@
                     },
                     "occupation": "",
                     "storyline": {},
-                    "goal": "to belong",
+                    "goal": "to experience a better, more authentic, more fulfilling life",
                     "motivation": {},
                     "conflict": {},
                     "epiphany": {},
@@ -422,20 +186,284 @@
                     "passages": [],
                     "roles": {
                         "primary": {
-                            "foil": {
-                                "description": "a supporting character who has a contrasting personality and set of values to the protaganist. Putting the foil and main character in close proximity helps draw readers\u2019 attention to the latter\u2019s attributes.",
-                                "count": 0
+                            "confidant": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "antagonist": {
+                                "description": "the primary bad guy. The character that opposes the protagonist outright on all counts, physically and emotionally.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Explorer",
+                    "desire": "the freedom to find out who you are through exploring the world",
+                    "biggest fear": "getting trapped, conformity, and inner emptiness",
+                    "strategy": "journey, seeking out and experiencing new things, escape from boredom",
+                    "weakness": "aimless wandering, becoming a misfit",
+                    "talent": "autonomy, ambition, being true to one's soul",
+                    "aka": "The seeker, iconoclast, wanderer, individualist, pilgrim."
+                },
+                "CHARACTER2228089": {
+                    "uid": "CHARACTER2228089",
+                    "sex": "female",
+                    "first_name": "Becky",
+                    "last_name": "Parker",
+                    "middle_name": "",
+                    "full_name": "Becky Parker",
+                    "nickname": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to experience a better, more authentic, more fulfilling life",
+                    "motivation": {},
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "mentor": {
+                                "description": "the protagonist\u2019s conscience and the prevailing side to the thematic argument. The mentor voices or represents the lesson that must be learned by the protagonist in order to change for the better and achieve the goal. (Note: Be mindful of creating a mentor who is as perfect and principled as humans can be, for doing so will make the character seem inhuman. Instead, let the mentor be flawed, like all us humans.)",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "skeptic": {
+                                "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Explorer",
+                    "desire": "the freedom to find out who you are through exploring the world",
+                    "biggest fear": "getting trapped, conformity, and inner emptiness",
+                    "strategy": "journey, seeking out and experiencing new things, escape from boredom",
+                    "weakness": "aimless wandering, becoming a misfit",
+                    "talent": "autonomy, ambition, being true to one's soul",
+                    "aka": "The seeker, iconoclast, wanderer, individualist, pilgrim."
+                },
+                "CHARACTER0509190": {
+                    "uid": "CHARACTER0509190",
+                    "sex": "male",
+                    "first_name": "Marcus",
+                    "last_name": "Flores",
+                    "middle_name": "",
+                    "full_name": "Marcus Flores",
+                    "nickname": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to realize a vision",
+                    "motivation": {},
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "love_interest": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
                             }
                         },
                         "secondary": {}
                     },
-                    "archetype_name": "The Orphan/The Regular Guy",
-                    "desire": "connecting with others",
-                    "greatest fear": "to be left out or to stand out from the crowd",
-                    "strategy": "to develop ordinary solid virtues, be down to earth, the common touch",
-                    "weakness": "losing one's own self in an effort to blend in or for the sake of superficial relationships",
-                    "talent": "realism, empathy, lack of pretence",
-                    "aka": "The good old boy, everyman, the person next door, the realist, the solid citizen, the good neighbour, the silent majority."
+                    "archetype_name": "The Creator",
+                    "desire": "to create things of enduring value",
+                    "greatest fear": "mediocre vision or execution",
+                    "strategy": "to develop artistic control and skill",
+                    "task": "to create culture, express his own vision",
+                    "weakness": "perfectionism, bad solutions",
+                    "aka": "The artist, inventor, innovator, musician, writer or dreamer."
+                },
+                "CHARACTER7601801": {
+                    "uid": "CHARACTER7601801",
+                    "sex": "male",
+                    "first_name": "Willie",
+                    "last_name": "Johnson",
+                    "middle_name": "",
+                    "full_name": "Willie Johnson",
+                    "nickname": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "create a prosperous, successful family or community",
+                    "motivation": {},
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "skeptic": {
+                                "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "skeptic": {
+                                "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Ruler",
+                    "desire": "control",
+                    "strategy": "exercise power",
+                    "greatest fear": "chaos, being overthrown",
+                    "weakness": "being authoritarian, unable to delegate",
+                    "talent": "responsibility, leadership",
+                    "aka": "The boss, leader, aristocrat, king, queen, politician, role model, manager or administrator."
+                },
+                "CHARACTER1430920": {
+                    "uid": "CHARACTER1430920",
+                    "sex": "male",
+                    "first_name": "Jonathan",
+                    "last_name": "Medina",
+                    "middle_name": "",
+                    "full_name": "Jonathan Medina",
+                    "nickname": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to make dreams come true",
+                    "motivation": {},
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "emotional": {
+                                "description": "this character acts according to their gut and lets motions fuel decisions. Impulsive. Reactive. Sometimes the emotional character is right and succeeds in ways that a thinking person would never have even tried, but sometimes the character finds trouble by not thinking before jumping.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "temptor": {
+                                "description": "the right-hand to the antagonist. The tempter doesn\u2019t need to know the antagonist, but they both stand for the same thing: stopping the protagonist from achieving the protagonist\u2019s goal. The tempter tries to manipulate and convince the protagonist to join the \u201cdark side\u201d. However, in the end, the tempter can change his/her mind and realize the benefit of joining the good guys.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Magician",
+                    "desire": "understanding the fundamental laws of the universe",
+                    "greatest fear": "unintended negative consequences",
+                    "strategy": "develop a vision and live by it",
+                    "weakness": "becoming manipulative",
+                    "talent": "finding win-win solutions",
+                    "aka": "The visionary, catalyst, inventor, charismatic leader, shaman, healer, medicine man."
+                },
+                "CHARACTER3862589": {
+                    "uid": "CHARACTER3862589",
+                    "sex": "female",
+                    "first_name": "Amber",
+                    "last_name": "Taylor",
+                    "middle_name": "",
+                    "full_name": "Amber Taylor",
+                    "nickname": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "being in a relationship with people, work and surroundings they love",
+                    "motivation": {},
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "protagonist": {
+                                "description": "the character responsible for handling the main problem and the one most in need of change, emotionally.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Lover",
+                    "desire": "intimacy and experience",
+                    "greatest fear": "being alone, a wallflower, unwanted, unloved",
+                    "strategy": "to become more and more physically and emotionally attractive",
+                    "weakness": "outward-directed desire to please others at risk of losing own identity",
+                    "talent": "passion, gratitude, appreciation, and commitment",
+                    "aka": "The partner, friend, intimate, enthusiast, sensualist, spouse, team-builder."
+                },
+                "CHARACTER6522987": {
+                    "uid": "CHARACTER6522987",
+                    "sex": "male",
+                    "first_name": "Anthony",
+                    "last_name": "Molina",
+                    "middle_name": "",
+                    "full_name": "Anthony Molina",
+                    "nickname": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "expert mastery in a way that improves the world",
+                    "motivation": {},
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "temptor": {
+                                "description": "the right-hand to the antagonist. The tempter doesn\u2019t need to know the antagonist, but they both stand for the same thing: stopping the protagonist from achieving the protagonist\u2019s goal. The tempter tries to manipulate and convince the protagonist to join the \u201cdark side\u201d. However, in the end, the tempter can change his/her mind and realize the benefit of joining the good guys.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Hero",
+                    "desire": "to prove one's worth through courageous acts",
+                    "greatest fear": "weakness, vulnerability, being a coward",
+                    "strategy": "to be as strong and competent as possible",
+                    "weakness": "arrogance, always needing another battle to fight",
+                    "talent": "competence and courage",
+                    "aka": "The warrior, crusader, rescuer, superhero, the soldier, dragon slayer, the winner and the team player."
                 }
             },
             "settings": {},
@@ -461,7 +489,7 @@
                     "count": 0,
                     "characters": [],
                     "aka": "",
-                    "unused": 0
+                    "unused": 1
                 },
                 "love_interest": {
                     "description": "description goes here",
@@ -482,28 +510,28 @@
                     "count": 0,
                     "characters": [],
                     "aka": "",
-                    "unused": 2
+                    "unused": 0
                 },
                 "temptor": {
                     "description": "the right-hand to the antagonist. The tempter doesn\u2019t need to know the antagonist, but they both stand for the same thing: stopping the protagonist from achieving the protagonist\u2019s goal. The tempter tries to manipulate and convince the protagonist to join the \u201cdark side\u201d. However, in the end, the tempter can change his/her mind and realize the benefit of joining the good guys.",
                     "count": 0,
                     "characters": [],
                     "aka": "",
-                    "unused": 0
+                    "unused": 1
                 },
                 "skeptic": {
                     "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
                     "count": 0,
                     "characters": [],
                     "aka": "",
-                    "unused": 0
+                    "unused": 2
                 },
                 "emotional": {
                     "description": "this character acts according to their gut and lets motions fuel decisions. Impulsive. Reactive. Sometimes the emotional character is right and succeeds in ways that a thinking person would never have even tried, but sometimes the character finds trouble by not thinking before jumping.",
                     "count": 0,
                     "characters": [],
                     "aka": "",
-                    "unused": 2
+                    "unused": 0
                 },
                 "logical": {
                     "description": "the rational thinker who plans things out, shoots for logical solutions and gives reasonable, matter-of-fact answers to questions. However, sometimes the head needs to listen to the heart to work at its best.",
@@ -539,10 +567,10 @@
                     },
                     "passage_pair": {
                         "num": 1,
-                        "uid": "PSGPAIR597797011",
+                        "uid": "PSGPAIR073096321",
                         "description": "Passage pairs are made up of a scene and a sequel."
                     },
-                    "uid": "SCENE51436810718"
+                    "uid": "SCENE55621094891"
                 },
                 "2": {
                     "type": "sequel",
@@ -557,10 +585,10 @@
                     },
                     "passage_pair": {
                         "num": 1,
-                        "uid": "PSGPAIR597797011",
+                        "uid": "PSGPAIR073096321",
                         "description": "Passage pairs are made up of a scene and a sequel."
                     },
-                    "uid": "SEQUEL1633582680"
+                    "uid": "SEQUEL9004220560"
                 },
                 "3": {
                     "type": "scene",
@@ -575,10 +603,10 @@
                     },
                     "passage_pair": {
                         "num": 2,
-                        "uid": "PSGPAIR359771341",
+                        "uid": "PSGPAIR238950190",
                         "description": "Passage pairs are made up of a scene and a sequel."
                     },
-                    "uid": "SCENE49911541539"
+                    "uid": "SCENE40200486074"
                 },
                 "4": {
                     "type": "sequel",
@@ -593,10 +621,10 @@
                     },
                     "passage_pair": {
                         "num": 2,
-                        "uid": "PSGPAIR359771341",
+                        "uid": "PSGPAIR238950190",
                         "description": "Passage pairs are made up of a scene and a sequel."
                     },
-                    "uid": "SEQUEL1765226033"
+                    "uid": "SEQUEL7629274939"
                 },
                 "5": {
                     "type": "scene",
@@ -611,10 +639,10 @@
                     },
                     "passage_pair": {
                         "num": 3,
-                        "uid": "PSGPAIR334108573",
+                        "uid": "PSGPAIR407141987",
                         "description": "Passage pairs are made up of a scene and a sequel."
                     },
-                    "uid": "SCENE30919682553"
+                    "uid": "SCENE28692570838"
                 },
                 "6": {
                     "type": "sequel",
@@ -629,10 +657,10 @@
                     },
                     "passage_pair": {
                         "num": 3,
-                        "uid": "PSGPAIR334108573",
+                        "uid": "PSGPAIR407141987",
                         "description": "Passage pairs are made up of a scene and a sequel."
                     },
-                    "uid": "SEQUEL1684147467"
+                    "uid": "SEQUEL2719548098"
                 }
             }
         }

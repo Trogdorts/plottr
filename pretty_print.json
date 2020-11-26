@@ -1,0 +1,1160 @@
+{
+    "uid": "UNIVERSE52319514",
+    "type": "universe",
+    "SERIES7106311124": {
+        "uid": "SERIES7106311124",
+        "type": "series",
+        "series_number": 1,
+        "NOVEL62393107747": {
+            "uid": "NOVEL62393107747",
+            "word_count": 17500,
+            "average_passage_length": 1170,
+            "characters": {
+                "CHARACTER4268134": {
+                    "uid": "CHARACTER4268134",
+                    "sex": "female",
+                    "first_name": "Emily",
+                    "last_name": "Christensen",
+                    "middle_name": "",
+                    "full_name": "Emily Christensen",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "create a prosperous, successful family or community",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "love_interest": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Ruler",
+                    "desire": "control",
+                    "strategy": "exercise power",
+                    "greatest fear": "chaos, being overthrown",
+                    "weakness": "being authoritarian, unable to delegate",
+                    "talent": "responsibility, leadership",
+                    "aka": "The boss, leader, aristocrat, king, queen, politician, role model, manager or administrator.",
+                    "morality": {
+                        "integrity": 7,
+                        "honesty": 8,
+                        "loyalty": 6,
+                        "respectfulness": 5,
+                        "responsibility": 3,
+                        "humility": 5,
+                        "compassion": 7,
+                        "fairness": 8,
+                        "forgiveness": 5,
+                        "authenticity": 7,
+                        "courageousness": 6,
+                        "generosity": 6,
+                        "perseverance": 7,
+                        "politeness": 2,
+                        "kindness": 7,
+                        "lovingness": 5,
+                        "optimism": 8,
+                        "reliability": 6,
+                        "conscientiousness": 8,
+                        "self-disciplined": 8,
+                        "ambitiousness": 5,
+                        "encouraging": 5,
+                        "forgiving": 4,
+                        "considerate": 6,
+                        "thoroughness": 3
+                    }
+                },
+                "CHARACTER0358095": {
+                    "uid": "CHARACTER0358095",
+                    "sex": "female",
+                    "first_name": "Teresa",
+                    "last_name": "Moody",
+                    "middle_name": "",
+                    "full_name": "Teresa Moody",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to be happy",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "antagonist": {
+                                "description": "the primary bad guy. The character that opposes the protagonist outright on all counts, physically and emotionally.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Innocent",
+                    "desire": "to reach paradise",
+                    "greatest fear": "to be punished for doing something bad or wrong",
+                    "strategy": "to do things right",
+                    "weakness": "their naive innocence can be boring or lack realism",
+                    "talent": "faith and optimism",
+                    "aka": "The utopian, the traditionalist, naive, mystic, saint, romantic, dreamer.",
+                    "morality": {
+                        "integrity": 6,
+                        "honesty": 4,
+                        "loyalty": 5,
+                        "respectfulness": 5,
+                        "responsibility": 5,
+                        "humility": 6,
+                        "compassion": 6,
+                        "fairness": 5,
+                        "forgiveness": 6,
+                        "authenticity": 5,
+                        "courageousness": 3,
+                        "generosity": 2,
+                        "perseverance": 7,
+                        "politeness": 5,
+                        "kindness": 7,
+                        "lovingness": 5,
+                        "optimism": 4,
+                        "reliability": 5,
+                        "conscientiousness": 6,
+                        "self-disciplined": 10,
+                        "ambitiousness": 7,
+                        "encouraging": 6,
+                        "forgiving": 6,
+                        "considerate": 7,
+                        "thoroughness": 4
+                    }
+                },
+                "CHARACTER8642216": {
+                    "uid": "CHARACTER8642216",
+                    "sex": "male",
+                    "first_name": "Kerry",
+                    "last_name": "Grimes",
+                    "middle_name": "",
+                    "full_name": "Kerry Grimes",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to experience a better, more authentic, more fulfilling life",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "foil": {
+                                "description": "a supporting character who has a contrasting personality and set of values to the protaganist. Putting the foil and main character in close proximity helps draw readers\u2019 attention to the latter\u2019s attributes.",
+                                "count": 0
+                            }
+                        },
+                        "secondary": {
+                            "antagonist": {
+                                "description": "the primary bad guy. The character that opposes the protagonist outright on all counts, physically and emotionally.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Explorer",
+                    "desire": "the freedom to find out who you are through exploring the world",
+                    "biggest fear": "getting trapped, conformity, and inner emptiness",
+                    "strategy": "journey, seeking out and experiencing new things, escape from boredom",
+                    "weakness": "aimless wandering, becoming a misfit",
+                    "talent": "autonomy, ambition, being true to one's soul",
+                    "aka": "The seeker, iconoclast, wanderer, individualist, pilgrim.",
+                    "morality": {
+                        "integrity": 5,
+                        "honesty": 4,
+                        "loyalty": 5,
+                        "respectfulness": 4,
+                        "responsibility": 6,
+                        "humility": 5,
+                        "compassion": 7,
+                        "fairness": 9,
+                        "forgiveness": 5,
+                        "authenticity": 3,
+                        "courageousness": 3,
+                        "generosity": 9,
+                        "perseverance": 5,
+                        "politeness": 4,
+                        "kindness": 5,
+                        "lovingness": 6,
+                        "optimism": 6,
+                        "reliability": 4,
+                        "conscientiousness": 4,
+                        "self-disciplined": 6,
+                        "ambitiousness": 7,
+                        "encouraging": 6,
+                        "forgiving": 4,
+                        "considerate": 8,
+                        "thoroughness": 6
+                    }
+                },
+                "CHARACTER7583364": {
+                    "uid": "CHARACTER7583364",
+                    "sex": "male",
+                    "first_name": "Ryan",
+                    "last_name": "Savage",
+                    "middle_name": "",
+                    "full_name": "Ryan Savage",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to have a great time and lighten up the world",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "logical": {
+                                "description": "the rational thinker who plans things out, shoots for logical solutions and gives reasonable, matter-of-fact answers to questions. However, sometimes the head needs to listen to the heart to work at its best.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "love_interest": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Jester",
+                    "desire": "to live in the moment with full enjoyment",
+                    "greatest fear": "being bored or boring others",
+                    "strategy": "play, make jokes, be funny",
+                    "weakness": "frivolity, wasting time",
+                    "talent": "joy",
+                    "aka": "The fool, trickster, joker, practical joker or comedian.",
+                    "morality": {
+                        "integrity": 4,
+                        "honesty": 7,
+                        "loyalty": 4,
+                        "respectfulness": 6,
+                        "responsibility": 6,
+                        "humility": 5,
+                        "compassion": 6,
+                        "fairness": 9,
+                        "forgiveness": 3,
+                        "authenticity": 6,
+                        "courageousness": 7,
+                        "generosity": 3,
+                        "perseverance": 5,
+                        "politeness": 7,
+                        "kindness": 5,
+                        "lovingness": 5,
+                        "optimism": 5,
+                        "reliability": 7,
+                        "conscientiousness": 6,
+                        "self-disciplined": 7,
+                        "ambitiousness": 7,
+                        "encouraging": 5,
+                        "forgiving": 3,
+                        "considerate": 6,
+                        "thoroughness": 8
+                    }
+                },
+                "CHARACTER3707393": {
+                    "uid": "CHARACTER3707393",
+                    "sex": "male",
+                    "first_name": "Daniel",
+                    "last_name": "Davis",
+                    "middle_name": "",
+                    "full_name": "Daniel Davis",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "expert mastery in a way that improves the world",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "skeptic": {
+                                "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Hero",
+                    "desire": "to prove one's worth through courageous acts",
+                    "greatest fear": "weakness, vulnerability, being a coward",
+                    "strategy": "to be as strong and competent as possible",
+                    "weakness": "arrogance, always needing another battle to fight",
+                    "talent": "competence and courage",
+                    "aka": "The warrior, crusader, rescuer, superhero, the soldier, dragon slayer, the winner and the team player.",
+                    "morality": {
+                        "integrity": 2,
+                        "honesty": 5,
+                        "loyalty": 6,
+                        "respectfulness": 5,
+                        "responsibility": 6,
+                        "humility": 6,
+                        "compassion": 8,
+                        "fairness": 3,
+                        "forgiveness": 6,
+                        "authenticity": 6,
+                        "courageousness": 5,
+                        "generosity": 5,
+                        "perseverance": 2,
+                        "politeness": 8,
+                        "kindness": 6,
+                        "lovingness": 7,
+                        "optimism": 7,
+                        "reliability": 2,
+                        "conscientiousness": 6,
+                        "self-disciplined": 5,
+                        "ambitiousness": 6,
+                        "encouraging": 3,
+                        "forgiving": 4,
+                        "considerate": 4,
+                        "thoroughness": 7
+                    }
+                },
+                "CHARACTER3682296": {
+                    "uid": "CHARACTER3682296",
+                    "sex": "male",
+                    "first_name": "Cody",
+                    "last_name": "Obrien",
+                    "middle_name": "",
+                    "full_name": "Cody Obrien",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to make dreams come true",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "protagonist": {
+                                "description": "the character responsible for handling the main problem and the one most in need of change, emotionally.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Magician",
+                    "desire": "understanding the fundamental laws of the universe",
+                    "greatest fear": "unintended negative consequences",
+                    "strategy": "develop a vision and live by it",
+                    "weakness": "becoming manipulative",
+                    "talent": "finding win-win solutions",
+                    "aka": "The visionary, catalyst, inventor, charismatic leader, shaman, healer, medicine man.",
+                    "morality": {
+                        "integrity": 5,
+                        "honesty": 7,
+                        "loyalty": 6,
+                        "respectfulness": 5,
+                        "responsibility": 2,
+                        "humility": 5,
+                        "compassion": 4,
+                        "fairness": 4,
+                        "forgiveness": 6,
+                        "authenticity": 6,
+                        "courageousness": 5,
+                        "generosity": 5,
+                        "perseverance": 3,
+                        "politeness": 7,
+                        "kindness": 5,
+                        "lovingness": 3,
+                        "optimism": 7,
+                        "reliability": 7,
+                        "conscientiousness": 4,
+                        "self-disciplined": 7,
+                        "ambitiousness": 7,
+                        "encouraging": 6,
+                        "forgiving": 5,
+                        "considerate": 7,
+                        "thoroughness": 5
+                    }
+                },
+                "CHARACTER1196707": {
+                    "uid": "CHARACTER1196707",
+                    "sex": "female",
+                    "first_name": "Marissa",
+                    "last_name": "Taylor",
+                    "middle_name": "",
+                    "full_name": "Marissa Taylor",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to have a great time and lighten up the world",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "confidant": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Jester",
+                    "desire": "to live in the moment with full enjoyment",
+                    "greatest fear": "being bored or boring others",
+                    "strategy": "play, make jokes, be funny",
+                    "weakness": "frivolity, wasting time",
+                    "talent": "joy",
+                    "aka": "The fool, trickster, joker, practical joker or comedian.",
+                    "morality": {
+                        "integrity": 6,
+                        "honesty": 6,
+                        "loyalty": 3,
+                        "respectfulness": 7,
+                        "responsibility": 8,
+                        "humility": 5,
+                        "compassion": 5,
+                        "fairness": 4,
+                        "forgiveness": 6,
+                        "authenticity": 7,
+                        "courageousness": 2,
+                        "generosity": 7,
+                        "perseverance": 5,
+                        "politeness": 5,
+                        "kindness": 5,
+                        "lovingness": 6,
+                        "optimism": 4,
+                        "reliability": 5,
+                        "conscientiousness": 8,
+                        "self-disciplined": 4,
+                        "ambitiousness": 5,
+                        "encouraging": 5,
+                        "forgiving": 6,
+                        "considerate": 5,
+                        "thoroughness": 6
+                    }
+                },
+                "CHARACTER5614403": {
+                    "uid": "CHARACTER5614403",
+                    "sex": "female",
+                    "first_name": "Stephanie",
+                    "last_name": "Johnston",
+                    "middle_name": "",
+                    "full_name": "Stephanie Johnston",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to belong",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "mentor": {
+                                "description": "the protagonist\u2019s conscience and the prevailing side to the thematic argument. The mentor voices or represents the lesson that must be learned by the protagonist in order to change for the better and achieve the goal. (Note: Be mindful of creating a mentor who is as perfect and principled as humans can be, for doing so will make the character seem inhuman. Instead, let the mentor be flawed, like all us humans.)",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "confidant": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Orphan/The Regular Guy",
+                    "desire": "connecting with others",
+                    "greatest fear": "to be left out or to stand out from the crowd",
+                    "strategy": "to develop ordinary solid virtues, be down to earth, the common touch",
+                    "weakness": "losing one's own self in an effort to blend in or for the sake of superficial relationships",
+                    "talent": "realism, empathy, lack of pretence",
+                    "aka": "The good old boy, everyman, the person next door, the realist, the solid citizen, the good neighbour, the silent majority.",
+                    "morality": {
+                        "integrity": 5,
+                        "honesty": 8,
+                        "loyalty": 2,
+                        "respectfulness": 2,
+                        "responsibility": 4,
+                        "humility": 9,
+                        "compassion": 6,
+                        "fairness": 4,
+                        "forgiveness": 1,
+                        "authenticity": 10,
+                        "courageousness": 3,
+                        "generosity": 7,
+                        "perseverance": 4,
+                        "politeness": 5,
+                        "kindness": 2,
+                        "lovingness": 4,
+                        "optimism": 7,
+                        "reliability": 5,
+                        "conscientiousness": 8,
+                        "self-disciplined": 6,
+                        "ambitiousness": 2,
+                        "encouraging": 6,
+                        "forgiving": 6,
+                        "considerate": 4,
+                        "thoroughness": 4
+                    }
+                },
+                "CHARACTER4547004": {
+                    "uid": "CHARACTER4547004",
+                    "sex": "male",
+                    "first_name": "Thomas",
+                    "last_name": "Wall",
+                    "middle_name": "",
+                    "full_name": "Thomas Wall",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "create a prosperous, successful family or community",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "emotional": {
+                                "description": "this character acts according to their gut and lets motions fuel decisions. Impulsive. Reactive. Sometimes the emotional character is right and succeeds in ways that a thinking person would never have even tried, but sometimes the character finds trouble by not thinking before jumping.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "antagonist": {
+                                "description": "the primary bad guy. The character that opposes the protagonist outright on all counts, physically and emotionally.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Ruler",
+                    "desire": "control",
+                    "strategy": "exercise power",
+                    "greatest fear": "chaos, being overthrown",
+                    "weakness": "being authoritarian, unable to delegate",
+                    "talent": "responsibility, leadership",
+                    "aka": "The boss, leader, aristocrat, king, queen, politician, role model, manager or administrator.",
+                    "morality": {
+                        "integrity": 5,
+                        "honesty": 6,
+                        "loyalty": 5,
+                        "respectfulness": 6,
+                        "responsibility": 5,
+                        "humility": 3,
+                        "compassion": 5,
+                        "fairness": 2,
+                        "forgiveness": 5,
+                        "authenticity": 8,
+                        "courageousness": 5,
+                        "generosity": 4,
+                        "perseverance": 5,
+                        "politeness": 6,
+                        "kindness": 4,
+                        "lovingness": 5,
+                        "optimism": 6,
+                        "reliability": 7,
+                        "conscientiousness": 2,
+                        "self-disciplined": 6,
+                        "ambitiousness": 4,
+                        "encouraging": 5,
+                        "forgiving": 7,
+                        "considerate": 4,
+                        "thoroughness": 8
+                    }
+                },
+                "CHARACTER6549873": {
+                    "uid": "CHARACTER6549873",
+                    "sex": "male",
+                    "first_name": "Erik",
+                    "last_name": "Palmer",
+                    "middle_name": "",
+                    "full_name": "Erik Palmer",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "to be happy",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "temptor": {
+                                "description": "the right-hand to the antagonist. The tempter doesn\u2019t need to know the antagonist, but they both stand for the same thing: stopping the protagonist from achieving the protagonist\u2019s goal. The tempter tries to manipulate and convince the protagonist to join the \u201cdark side\u201d. However, in the end, the tempter can change his/her mind and realize the benefit of joining the good guys.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {}
+                    },
+                    "archetype_name": "The Innocent",
+                    "desire": "to reach paradise",
+                    "greatest fear": "to be punished for doing something bad or wrong",
+                    "strategy": "to do things right",
+                    "weakness": "their naive innocence can be boring or lack realism",
+                    "talent": "faith and optimism",
+                    "aka": "The utopian, the traditionalist, naive, mystic, saint, romantic, dreamer.",
+                    "morality": {
+                        "integrity": 7,
+                        "honesty": 8,
+                        "loyalty": 5,
+                        "respectfulness": 6,
+                        "responsibility": 5,
+                        "humility": 5,
+                        "compassion": 7,
+                        "fairness": 8,
+                        "forgiveness": 10,
+                        "authenticity": 7,
+                        "courageousness": 5,
+                        "generosity": 5,
+                        "perseverance": 8,
+                        "politeness": 5,
+                        "kindness": 6,
+                        "lovingness": 5,
+                        "optimism": 6,
+                        "reliability": 5,
+                        "conscientiousness": 4,
+                        "self-disciplined": 3,
+                        "ambitiousness": 5,
+                        "encouraging": 8,
+                        "forgiving": 4,
+                        "considerate": 4,
+                        "thoroughness": 5
+                    }
+                },
+                "CHARACTER4253393": {
+                    "uid": "CHARACTER4253393",
+                    "sex": "male",
+                    "first_name": "Samuel",
+                    "last_name": "Miller",
+                    "middle_name": "",
+                    "full_name": "Samuel Miller",
+                    "nickname": "",
+                    "title": "",
+                    "age": "",
+                    "species": {
+                        "name": "human"
+                    },
+                    "occupation": "",
+                    "storyline": {},
+                    "goal": "being in a relationship with people, work and surroundings they love",
+                    "motivation": {},
+                    "agenda": {
+                        "hidden": " "
+                    },
+                    "conflict": {},
+                    "epiphany": {},
+                    "history": [],
+                    "passages": [],
+                    "roles": {
+                        "primary": {
+                            "catalyst": {
+                                "description": "the character in a story who causes the protagonist, or main character, to move toward some kind of action or transformation. This character is usually the person that spends the most quality and influential time with the protagonist.",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        },
+                        "secondary": {
+                            "love_interest": {
+                                "description": "description goes here",
+                                "count": 0,
+                                "characters": [],
+                                "aka": ""
+                            }
+                        }
+                    },
+                    "archetype_name": "The Lover",
+                    "desire": "intimacy and experience",
+                    "greatest fear": "being alone, a wallflower, unwanted, unloved",
+                    "strategy": "to become more and more physically and emotionally attractive",
+                    "weakness": "outward-directed desire to please others at risk of losing own identity",
+                    "talent": "passion, gratitude, appreciation, and commitment",
+                    "aka": "The partner, friend, intimate, enthusiast, sensualist, spouse, team-builder.",
+                    "morality": {
+                        "integrity": 4,
+                        "honesty": 4,
+                        "loyalty": 6,
+                        "respectfulness": 6,
+                        "responsibility": 4,
+                        "humility": 6,
+                        "compassion": 8,
+                        "fairness": 6,
+                        "forgiveness": 7,
+                        "authenticity": 4,
+                        "courageousness": 7,
+                        "generosity": 6,
+                        "perseverance": 3,
+                        "politeness": 7,
+                        "kindness": 4,
+                        "lovingness": 7,
+                        "optimism": 3,
+                        "reliability": 6,
+                        "conscientiousness": 8,
+                        "self-disciplined": 8,
+                        "ambitiousness": 2,
+                        "encouraging": 6,
+                        "forgiving": 3,
+                        "considerate": 4,
+                        "thoroughness": 5
+                    }
+                }
+            },
+            "settings": {},
+            "novel_number": 1,
+            "pov": {
+                "name": "First Person",
+                "pronouns": [
+                    "I",
+                    "we"
+                ]
+            },
+            "type": "novel",
+            "roles": {
+                "protagonist": {
+                    "description": "the character responsible for handling the main problem and the one most in need of change, emotionally.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "antagonist": {
+                    "description": "the primary bad guy. The character that opposes the protagonist outright on all counts, physically and emotionally.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "love_interest": {
+                    "description": "description goes here",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "confidant": {
+                    "description": "description goes here",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "mentor": {
+                    "description": "the protagonist\u2019s conscience and the prevailing side to the thematic argument. The mentor voices or represents the lesson that must be learned by the protagonist in order to change for the better and achieve the goal. (Note: Be mindful of creating a mentor who is as perfect and principled as humans can be, for doing so will make the character seem inhuman. Instead, let the mentor be flawed, like all us humans.)",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "temptor": {
+                    "description": "the right-hand to the antagonist. The tempter doesn\u2019t need to know the antagonist, but they both stand for the same thing: stopping the protagonist from achieving the protagonist\u2019s goal. The tempter tries to manipulate and convince the protagonist to join the \u201cdark side\u201d. However, in the end, the tempter can change his/her mind and realize the benefit of joining the good guys.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "skeptic": {
+                    "description": "the lone objector. The skeptic does not believe in the theme nor in the importance of achieving the protagonist\u2019s goal. Without loyalties, the skeptic is on his/her own path. The skeptic may like the protagonist and want the protagonist to succeed but not at the cost of the skeptic\u2019s goals. However, the skeptic may have a change of heart by the end of the story.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "emotional": {
+                    "description": "this character acts according to their gut and lets motions fuel decisions. Impulsive. Reactive. Sometimes the emotional character is right and succeeds in ways that a thinking person would never have even tried, but sometimes the character finds trouble by not thinking before jumping.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "logical": {
+                    "description": "the rational thinker who plans things out, shoots for logical solutions and gives reasonable, matter-of-fact answers to questions. However, sometimes the head needs to listen to the heart to work at its best.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                },
+                "foil": {
+                    "description": "a supporting character who has a contrasting personality and set of values to the protaganist. Putting the foil and main character in close proximity helps draw readers\u2019 attention to the latter\u2019s attributes.",
+                    "count": 0,
+                    "unused": 0
+                },
+                "catalyst": {
+                    "description": "the character in a story who causes the protagonist, or main character, to move toward some kind of action or transformation. This character is usually the person that spends the most quality and influential time with the protagonist.",
+                    "count": 0,
+                    "characters": [],
+                    "aka": "",
+                    "unused": 0
+                }
+            },
+            "passages": {
+                "1": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 1,
+                        "uid": "PSGPAIR032063298",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE65165781824"
+                },
+                "2": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 1,
+                        "uid": "PSGPAIR032063298",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL6295642640"
+                },
+                "3": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 2,
+                        "uid": "PSGPAIR170423965",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE87758193456"
+                },
+                "4": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 2,
+                        "uid": "PSGPAIR170423965",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL5025369921"
+                },
+                "5": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 3,
+                        "uid": "PSGPAIR349714906",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE95934120894"
+                },
+                "6": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 3,
+                        "uid": "PSGPAIR349714906",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL8509199309"
+                },
+                "7": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 4,
+                        "uid": "PSGPAIR990626262",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE93272839909"
+                },
+                "8": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 4,
+                        "uid": "PSGPAIR990626262",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL0626418964"
+                },
+                "9": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 5,
+                        "uid": "PSGPAIR095540572",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE12613822008"
+                },
+                "10": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 5,
+                        "uid": "PSGPAIR095540572",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL4682625484"
+                },
+                "11": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 6,
+                        "uid": "PSGPAIR482927264",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE18515213922"
+                },
+                "12": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 6,
+                        "uid": "PSGPAIR482927264",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL9773246584"
+                },
+                "13": {
+                    "type": "scene",
+                    "goal": {
+                        "description": "character wants something on the scene level that will ultimately help him reach his overall plot goal\u2014and he tries to get it"
+                    },
+                    "conflict": {
+                        "description": "character is met with an obstacle to obtaining his goal"
+                    },
+                    "outcome": {
+                        "description": "usually disastrous, in the sense that the character does not achieve the goal or achieves only part of it"
+                    },
+                    "passage_pair": {
+                        "num": 7,
+                        "uid": "PSGPAIR305061025",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SCENE16973145140"
+                },
+                "14": {
+                    "type": "sequel",
+                    "reaction": {
+                        "description": "character reacts to the outcome"
+                    },
+                    "delemma": {
+                        "description": "character must figure out  how to overcome the new complications and still move forward toward his main plot goal"
+                    },
+                    "decision": {
+                        "description": "character decides upon a new scene goal to cope with the new complications and move forward toward the main plot goal in a\u2014hopefully\u2014more effective way"
+                    },
+                    "passage_pair": {
+                        "num": 7,
+                        "uid": "PSGPAIR305061025",
+                        "description": "Passage pairs are made up of a scene and a sequel."
+                    },
+                    "uid": "SEQUEL8005498280"
+                }
+            }
+        }
+    }
+}

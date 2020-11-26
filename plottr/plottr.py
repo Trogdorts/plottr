@@ -259,7 +259,7 @@ def build_new_character(archetype="random", sex='random', species='human'):
             species = common_species[species]
         return species
 
-    def set_sex(sex):
+    def set_sex(sex):  
         if sex == 'random':
             sex = random.choice(['male','female'])
         return sex
@@ -541,7 +541,7 @@ def get_unused_roles_count(novel):
 
 def build_novel_cast(novel, cast_list='default'):
     # by default, enable a single instance of each role. 
-    # TOD come back later and add in different cast lists to build for different novel lenghts and genres
+    # TODO come back later and add in different cast lists to build for different novel lenghts and genres
     
     def get_available_roles(novel):
         available_roles = []
@@ -575,7 +575,23 @@ def build_novel_cast(novel, cast_list='default'):
     unique_roles = list(set(available_roles))
     
     # Create a character for each primary role
+    
     for role in unique_roles:
+        # TODO check existing characters for sex and ensure love interests are the opposite by default
+        if "love_interest" in role:
+            print("found the love interest")
+            characters = get_novel_characters(novel)
+            existing_characters = []
+            for c in characters:
+                for i in c:
+                    existing_characters.append(list(novel['characters'][i]['roles']['primary'].keys())[0])
+            if "protaganist" in existing_characters:
+                print("protaganist already exists")
+                
+            
+
+
+        
         character = build_new_character()
         character['roles']['primary'] = {str(role):copy.deepcopy(novel['roles'][role])}
         del character['roles']['primary'][role]['unused'] # dont need this field coppied to the character 
@@ -589,13 +605,19 @@ def build_novel_cast(novel, cast_list='default'):
             characters = get_novel_characters(novel) # get a list of all characters
             random_character = random.choice(characters)
             selected_character = list(random_character.keys())[0]
+            primary_role = novel['characters'][selected_character]['roles']['primary']
             # TODO this should be a future logging statement print("Adding secondary role {} to character {}.".format(role, selected_character))
-            if 'protagonist'not in (novel['characters'][selected_character]['roles']['primary']):  # dont give a second role to the protagonist
-                if 'temptor' not in (novel['characters'][selected_character]['roles']['primary']):  # dont give a second role to the temptor
-                    novel['characters'][selected_character]['roles']['secondary'] = {str(role):copy.deepcopy(novel['roles'][role])}
-                    del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
-                    available_roles.remove(role) # Remove selected role from the novels available roles
-                    novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
+            if 'protagonist'not in primary_role:  # dont give a second role to the protagonist
+                if 'temptor' not in primary_role:  # dont give a second role to the temptor
+                    secondary_role = {str(role):copy.deepcopy(novel['roles'][role])}
+                    
+                    if 'antagonist' not in primary_role and 'temptor' not in secondary_role: # Antagonist cant have temptor as a secondary role
+                    
+                    
+                        novel['characters'][selected_character]['roles']['secondary'] = secondary_role
+                        del novel['characters'][selected_character]['roles']['secondary'][role]['unused'] # dont need this field coppied to the character 
+                        available_roles.remove(role) # Remove selected role from the novels available roles
+                        novel['roles'][role]['unused'] = (novel['roles'][role]['unused'] - 1)
 
 
     # FUTURE WORK
